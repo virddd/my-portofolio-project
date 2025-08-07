@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Permanent+Marker&family=Press+Start+2P&family=Tiny5&display=swap">
+</head>
+
+<body class="text-gray-800 bg-[#4B4B4B] font-sans">
+    <header>
+        <nav class="relative z-0 bg-[#303030]">
+            <ul class="h-12 top-0 flex items-center gap-6 py-2  text-white">
+                <li class=" text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl font-[mclaren] ml-6"><a href="#home">Home</a></li>
+                <li class=" text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl font-[mclaren]"><a href="#about">About</a></li>
+                <li class=" text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl font-[mclaren]"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="absolute top-0 right-0 flex items-center p-2">
+                    <div class="relative">
+                        <label id="checked" for="check" class="-ml-18 cursor-pointer absolute top-0 peer-checked:bg-[#ff8700] bg-[#4b4b4b] my-1 h-6 w-14 z-20 transform rounded-full">
+                            <input type="checkbox" class="sr-only peer" id="check">
+                            <img id="button" class="z-30 cursor-pointer absolute flex w-6 h-auto dark:right-0 light:right-8 -top-0" src="./resource/source/img/wheel.png" alt="o" srcset="./resource/source/img/wheels.png">
+                        </label>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+<!--------------------- home--------------------->
+
+    <main class=" bg-[#ff8700] rounded-4xl text-white m-5 p-6">
+        <section id="halo" class="font-bold">
+            <h3 class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-[#303030] font-[Tiny5]">Hey There!</h3>
+            <h1 class="text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white" style="font-family: 'Press Start 2P';">I'am Muhammad Ramdan Virdiansyah</h1>
+            <h3 class="text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-[#303030] font-[Tiny5]">You can call me virdi, I'am a student.</h3>
+        </section>
+
+        <article class="py-8">
+            <h1 class="text-justify"></h1>
+            <p class="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-[Forum] text-white text-justify">
+                Saya adalah seorang pelajar dari SMKN 1 Palasah yang memiliki minat besar di bidang teknologi. Ketertarikan saya di bidang teknologi meliputi
+                pemrograman, IoT, robotika, modifikasi perangkat elektronik, desain grafis, video editing, sampai ke bidang otomotif. Saya senang mempelajari hal hal baru dan menuangkan ide menjadi solusi nyata.
+
+            </p>
+        </article>
+
+        <section id="carousel-container" class="relative bg-black rounded-3xl">
+            <div id="carousel" class="flex flex-nowrap overflow-x-scroll [scroll-behavior:auto] whitespace-nowrap [scrollbar-width:none] rounded-3xl bg-black ">
+                <img id="img1"  class="w-32" src="./resource/source/img1.png"  alt="foto keren">
+                <img id="img2"  class="w-32" src="./resource/source/img2.png"  alt="foto keren">
+                <img id="img3"  class="w-32" src="./resource/source/img3.png"  alt="foto keren">
+                <img id="img4"  class="w-32" src="./resource/source/img4.png"  alt="foto keren">
+                <img id="img5"  class="w-32" src="./resource/source/img5.png"  alt="foto keren">
+                <img id="img6"  class="w-32" src="./resource/source/img6.png"  alt="foto keren">
+                <img id="img7"  class="w-32" src="./resource/source/img7.png"  alt="foto keren">
+                <img id="img8"  class="w-32" src="./resource/source/img8.png"  alt="foto keren">
+                <img id="img9"  class="w-32" src="./resource/source/img9.png"  alt="foto keren">
+                <img id="img10" class="w-32" src="./resource/source/img10.png" alt="foto keren">
+                <img id="img11" class="w-32" src="./resource/source/img11.png" alt="foto keren">
+                <img id="img12" class="w-32" src="./resource/source/img12.png" alt="foto keren">
+                <img id="img13" class="w-32" src="./resource/source/img13.png" alt="foto keren"> 
+                <img id="img14" class="w-32" src="./resource/source/img14.png" alt="foto keren">
+                <img id="img15" class="w-32" src="./resource/source/img15.png" alt="foto keren">
+            </div>
+        </section>
+    </main>
+
+<!--------------------- home--------------------->
+
+<!-------------------- about -------------------->
+
+    <section>
+        <article class="text-white">
+            <h1 class="text-2xl font-bold text-center">About Me</h1> <br>  
+            <div class="text-justify px-12">
+                <p>Saya adalah siswa jurusan Teknik Komputer dan Jaringan (TKJ) di SMKN 1 Palasah yang memiliki rasa keingintahuan dan minat jyang kuat dalam bidang teknologi, khususnya editing dan pemrograman. Sejak SMP, saya mulai menekuni editing video secara otodidak, dan kini sudah mulai terbiasa menggunakan software seperti Adobe Premiere Pro dan DaVinci Resolve.</p> <br>
+                <p>Saat SMK, saya mulai mendalami pemrograman dan Internet of Things (IoT) melalui ekstrakurikuler, serta sempat mengerjakan proyek Smart Home secara mandiri. Saya juga pernah mengikuti lomba IoT di PPTIK ITB dan menjadi editor dalam tim lomba film pendek FLS2N 2025, di mana tim kami meraih juara 2 di lomba film pendek tingkat kabupaten.</p> <br>
+                <p>Saat ini saya sedang menjalani masa praktik kerja lapangan (pkl) di sebuah perusahaan penyedia layanan internet, dan beruntungnya saya ditempatkan dibidang pemrograman sehingga saya bisa melanjutkan pengembangan keterampilan yang saat ini saya tekuni. </p> <br>
+                <!-- <p>Saya adalah siswa jurusan Teknik Komputer dan Jaringan (TKJ) di SMKN 1 Palasah, dengan ketertarikan besar pada dunia teknologi sejak kecil. Minat ini tumbuh karena pengaruh ayah saya yang juga melek teknologi. Sejak SD, saya sudah suka bereksperimen dengan berbagai aplikasi editing foto dan video di smartphone. Saat SMP, hasil karya saya bahkan mulai diminati dan dibeli orang, karena saat itu kemampuan mengedit video di HP masih jarang dimiliki orang seusia saya.</p>
+                <p>Kecintaan terhadap editing mengasah kreativitas dan ketelitian saya. Meski sebagian hanya untuk iseng, hasilnya membuat banyak orang mulai mempercayakan pengerjaan tugas-tugas digital kepada saya. Memasuki 2023, perkembangan aplikasi editing membuat proses menjadi lebih instan, dan user frendly sehingga banyak orang yg mulai bisa ngedit sendiri.</p>
+                <p>Ketertarikan saya terhadap pemrograman tumbuh saat duduk di kelas 2 SMK. Saya belajar secara otodidak dari YouTube dan game edukatif, hingga akhirnya bergabung dengan ekstrakurikuler baru bernama Ekskul IoT. Di sana, saya bertemu teman-teman dengan semangat yang sama, meskipun sekolah kami tidak memiliki jurusan Rekayasa Perangkat Lunak.</p>
+                <p>Dalam waktu singkat, saya dan tim berkesempatan mengikuti lomba IoT di PPTIK ITB. Proyek kami selesai, namun sayangnya lomba tersebut ditunda beberapa kali dan akhirnya batal. Meski begitu, pengalaman tersebut sangat berarti dan mempercepat proses belajar saya.</p>
+                <p>Saat libur Ramadan 2025, saya merakit proyek Smart Home secara mandiri di rumah, lengkap dengan tombol fisik dari switch keyboard mekanikal sebagai solusi cadangan jika koneksi internet bermasalah. Proyek ini hampir selesai, hanya kurang satu komponen yaitu sensor pengenal suara yang belum terbeli karena keterbatasan dana.</p>
+                <p>Di tengah kesibukan mengembangkan IoT, saya juga terlibat dalam lomba film pendek FLS2N 2025. Saya dipercaya menjadi videografer sekaligus editor. Berbekal pengalaman editing sejak SMP, saya dapat dengan cepat beradaptasi menggunakan Adobe Premiere Pro dan DaVinci Resolve. Singkat cerita, tim kami berhasil meraih juara 2 tingkat kabupaten, pencapaian ini menjadi pengalaman sangat berharga bagi saya yang awalnya tidak saya duga bakal menjadi juara 2.</p>
+                <p>Setelah proyek film pendek tersebut, saya harus meninggalkan ekstrakurikuler IoT karena memasuki masa PKL. Beruntung, saya ditempatkan di bidang pemrograman, sehingga masih bisa melanjutkan pengembangan keterampilan yang selama ini saya tekuni.</p> -->
+                <p>Saya percaya bahwa rasa ingin tahu dan kemauan untuk terus belajar adalah kunci berkembang di dunia teknologi. Ke depan, saya ingin terus menciptakan karya dan solusi yang bermanfaat melalui teknologi. </p>
+            </div>
+        </article>
+    </section>
+
+<!-------------------- about -------------------->
+
+<!------------------- contact-------------------->
+
+    
+
+<!------------------- contact-------------------->
+
+    <footer class="text-white p-4 text-center">
+        <p>&copy; 2025 Muhammad Ramdan Virdiansyah</p>
+        <p>Inspired by McLaren F1 Team</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
